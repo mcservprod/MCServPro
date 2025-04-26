@@ -175,4 +175,3 @@ pub fn stop_server(state: State<ServerState>) -> Result<String, String> {
         Err("Сервер не запущен".to_string())
     }
 }
-
